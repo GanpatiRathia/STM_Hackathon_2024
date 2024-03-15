@@ -62,7 +62,8 @@ class Week_VS_Status():
 
         # Plot the data
         self.logger.log(log_file, "Works Fine , The flow is Good to Go into next step")
-        plot.set_index('Week_Number').plot(kind='bar', stacked=True, color=['steelblue', 'red'])
+        ax=plot.set_index('Week_Number').plot(kind='bar', stacked=True, color=['steelblue', 'red'])
+        ax.set_title("Week vs Status")
         self.logger.log(log_file, "Great !! The beginning of the graph plotting has started")
 
         # Show the plot

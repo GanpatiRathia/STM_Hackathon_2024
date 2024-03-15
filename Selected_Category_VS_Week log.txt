@@ -2,3 +2,19 @@
 2024-03-15/18:42:08		Works Fine , The flow is Good to Go into next step
 2024-03-15/18:42:09		Great !! The beginning of the graph plotting has started
 2024-03-15/18:42:10		Selected_Category_VS_Week plotting ended!!
+2024-03-15/19:08:20		 Selected_Category_VS_Week plotting has started !!
+2024-03-15/19:08:20		Works Fine , The flow is Good to Go into next step
+2024-03-15/19:08:20		Great !! The beginning of the graph plotting has started
+2024-03-15/19:08:21		Selected_Category_VS_Week plotting ended!!
+2024-03-15/19:17:46		 Selected_Category_VS_Week plotting has started !!
+2024-03-15/19:17:46		Works Fine , The flow is Good to Go into next step
+2024-03-15/19:17:46		Great !! The beginning of the graph plotting has started
+2024-03-15/19:17:49		Selected_Category_VS_Week plotting ended!!
+2024-03-15/19:21:21		 Selected_Category_VS_Week plotting has started !!
+2024-03-15/19:21:21		Works Fine , The flow is Good to Go into next step
+2024-03-15/19:21:21		Great !! The beginning of the graph plotting has started
+2024-03-15/19:21:27		Selected_Category_VS_Week plotting ended!!
+2024-03-15/19:23:53		 Selected_Category_VS_Week plotting has started !!
+2024-03-15/19:23:53		Works Fine , The flow is Good to Go into next step
+2024-03-15/19:23:53		Great !! The beginning of the graph plotting has started
+2024-03-15/19:24:02		Selected_Category_VS_Week plotting ended!!

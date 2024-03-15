@@ -60,8 +60,8 @@ class Owner_VS_Status():
         self.logger.log(log_file, "Works Fine , The flow is Good to Go into next step")
 
         # Plot the data
-        plot.set_index('Owner').plot(kind='bar', stacked=True, color=['steelblue', 'red'])
-
+        ax=plot.set_index('Owner').plot(kind='bar', stacked=True, color=['steelblue', 'red'])
+        ax.set_title('Owner Vs Status')
         self.logger.log(log_file, "Great !! The beginning of the graph plotting has started")
 
         # Show the plot

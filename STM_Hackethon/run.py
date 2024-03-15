@@ -134,7 +134,8 @@ for filename in os.listdir(samc_path):
 
 outc['SCORE'] = outc['SCORE'].str.replace(r'[^0-9.]', '').astype(float)
 plot=outc.groupby('Week_Number')['SCORE'].mean().reset_index()
-plot.set_index('Week_Number').plot(kind='line', stacked=True, color=['steelblue', 'red'])
+ax=plot.set_index('Week_Number').plot(kind='line', stacked=True, color=['steelblue', 'red'])
+ax.set_title('Coverage score vs Week')
 plt.show()
 
 

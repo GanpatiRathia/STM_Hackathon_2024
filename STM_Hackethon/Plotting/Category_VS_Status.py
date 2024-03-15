@@ -60,7 +60,8 @@ class Category_VS_Status():
         #sns.set(style='white')
 
         # Plot the data
-        plot.set_index('Category').plot(kind='bar', stacked=True, color=['steelblue', 'red'],rot=90)
+        ax=plot.set_index('Category').plot(kind='bar', stacked=True, color=['steelblue', 'red'],rot=90)
+        ax.set_title('Category vs Status')
         self.logger.log(log_file, "Works Fine , The flow is Good to Go into next step")
         # Show the plot
         self.logger.log(log_file, "Great !! The beginning of the graph plotting has started")

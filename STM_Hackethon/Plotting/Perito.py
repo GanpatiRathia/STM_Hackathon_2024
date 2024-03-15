@@ -68,8 +68,8 @@ class perito():
 
         plot = pa[(pa.fail_percent > 1.0)]
 
-        plt.bar(plot['Category'], plot['fail_percent'])
-        plt.xticks(rotation=90)
+        #plt.bar(plot['Category'], plot['fail_percent'])
+        #plt.xticks(rotation=90)
 
         pa["cumsum"] = pa['failed'].cumsum()
 
@@ -98,11 +98,11 @@ class perito():
         ax.xaxis.set_ticklabels(ca, rotation=90)
         # ax2.set_xticks(ticks, minor=False)
         # ax2.xticks(rotation = 90)
-
+        
         # specify axis colors
         ax.tick_params(axis='y')
         ax2.tick_params(axis='y')
-
+        ax.set_title('Perito Analysis')
         # display Pareto chart
         plt.show()
 
