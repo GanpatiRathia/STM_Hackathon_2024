@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Regression and Coverage Report</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0svjQEgQWvzfUjbNr+MXPTxsH6en+GfuDUcS7P+BKVLnD9KVAcsE4z=<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ppUHc2SX7aYhGwXqCqIHvMSjuLALxVnEgCvRW2IrP/9zVLzH9KXNfBg+1LwN5DHvC" crossorigin="anonymous"></script>">
+</head>
+<body>
+  <div class="container mt-3">
+    <h1>Regression and Coverage Report</h1>
+    <form action="/visualize" method="post">
+      <div class="mb-3">
+        <label for="data_types" class="form-label">Data Type:</label>
+        <select class="form-select" id="data_types" name="data_type" required>
+          <option value="">Select Data Type</option>
+          {% for data_type in data_types %}
+            <option value="{{ data_types }}">{{ data_types }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="time_granularities" class="form-label">Time Granularity:</label>
+        <select class="form-select" id="time_granularities" name="time_granularities" required>
+          <option value="">Select Time Granularity</option>
+          {% for granularity in time_granularities %}
+            <option value="{{ time_granularities }}">{{ time_granularities }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="group_by_options" class="form-label">Group By:</label>
+        <select class="form-select" id="group_by_options" name="group_by_options" required>
+          <option value="">Select Grouping Criteria</option>
+          {% for group_option in group_by_options %}
+            <option value="{{ group_by_options }}">{{ group_by_options }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="chart_types" class="form-label">Chart Type:</label>
+        <select class="form-select" id="chart_types" name="chart_types" required>
+          <option value="">Select Chart Type</option>
+          {% for chart_type in chart_types %}
+            <option value="{{ chart_types }}">{{ chart_types }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="date_range_start" class="form-label">Date Range (Optional):</label>
+        <div class="row">
+          <div class="col">
+            <input type="date" class="form-control" id="date_range_start" name="date_range_start">
+          </div>
+          <div class="col">
+            <input type="date" class="form-control" id="date_range_end" name="date_range_end">
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Generate Report</button>
+    </form>
+  </div>
+</body>
+</html>

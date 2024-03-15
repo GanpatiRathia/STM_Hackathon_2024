@@ -1,0 +1,6 @@
+pandas
+matplotlib
+plotly
+flask
+seaborn
+dvc
