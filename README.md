@@ -1,18 +1,30 @@
-Cammands to run the file ---
+# Interactive Graph Visualization
 
-------Compitable to any interpreter , Preferably (Pycharm or VSCode)
+This project is an interactive graph visualization tool that allows users to download the graph if they choose. The project is compatible with any interpreter, but preferably with Pycharm or VSCode.
 
-------Open Terminal , Run the following cammand below :-
+## Installation
 
-1. pip install -r requirements.txt
-2. run run.py
-3. Visualize the interactive graph with an option given to download.
+To run this project, you need to have Python version 3.9 or higher installed on your system. Once you have Python installed, follow these steps:
 
-Choose python version > 3.9 
+1. Open your terminal
+2. Navigate to the project directory
+3. Run the following command to install the required dependencies:
 
+pip install -r requirements.txt
 
-Developed By : 
-  Ganpati Rathia, ganpati.rathia@st.com, 7587377402
-  Arnab Basak, arnab.basak@st.com  , 9163989735
-  Subham Maji, subham.maji@st.com, 9883568447
-  Aryan , aryan.aryan@st.com, 9304344919
+## Usage
+
+After installing the dependencies, run the following command to start the project:
+
+python run.py
+
+Once the project is running, you will be able to visualize the interactive graph with an option to download it.
+
+## Contributors
+
+This project was developed by:
+
+- Ganpati Rathia, ganpati.rathia@st.com, 7587377402
+- Arnab Basak, arnab.basak@st.com, 9163989735
+- Subham Maji, subham.maji@st.com, 9883568447
+- Aryan, aryan.aryan@st.com, 9304344919
